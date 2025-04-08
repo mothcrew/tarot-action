@@ -9,5 +9,5 @@ card2=${cards[$RANDOM % ${#cards[@]}]}
 card3=${cards[$RANDOM % ${#cards[@]}]}
 
 # Output to a file
-echo -e "$card1\n$card2\n$card3" > ~/.tarot_reading.txt
+echo -e "$card1\n$card2\n$card3" > ~/tarot_reading.txt
 
